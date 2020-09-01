@@ -1,0 +1,79 @@
+* {
+    margin: 5px;
+    padding: 15px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#inicio {
+    border-radius: 5px;
+    background-color: rgb(73, 27, 27);
+    color: white;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pergunta {
+    border-radius: 5px;
+    background-color: rgb(73, 27, 27);
+    color: bisque;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#btnIniciar {
+    border-radius: 5px;
+    width: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#btnIniciar:hover {
+    background-color: rgba(45, 80, 80, 0.5);
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+
+#btnConfirmar {
+    border-radius: 5px;
+    width: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#btnConfirmar:hover {
+    background-color: rgba(45, 80, 80, 0.5);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+img {
+    width: 15vw;
+    height: 20vh;
+}
